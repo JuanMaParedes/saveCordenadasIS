@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffda89;
+}
+#mapa{
+    width: 70%;
+    height: 400px;
+}
+#encabezado{
+    background-color: #77dd77;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+#encabezado h2{
+    color: aliceblue;
+}
+form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+form button{
+    margin-left: 1rem;
+}
+#loc{
+    margin-left: 1rem;
+}
